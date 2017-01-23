@@ -1,0 +1,31 @@
+<template>
+	<require from="./nav-tabs.html"></require>
+	<require from="./document-overview.html"></require>
+	<section class="group" id="document">
+		<header class="group sub-header">
+			<div class="col collapse large-6-12">
+				<h1 class="animated slideInLeft">${heading}</h1>
+				<p class="animated fadeInUp">${description}</p>
+			</div>
+			<div class="col collapse large-6-12">
+				<a class="button icon">
+					<icon set="github-alt"></icon>
+					Github
+				</a>
+			</div>
+		</header>
+		<main class="group">
+			<div class="group col large-8-12">
+				<nav-tabs router.bind="router"></nav-tabs>
+				<router-view class="animated fadeInUp"></router-view>
+			</div>
+			<div class="group col large-4-12">
+				<document-overview></document-overview>
+			</div>
+		</main>
+		<footer class="col large-12-12">
+			<p>Zenrock Media</p>
+			<p>Free and Open Source (MIT)</p>
+		</footer>
+	</section>
+</template>

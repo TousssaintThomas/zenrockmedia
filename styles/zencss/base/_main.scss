@@ -1,0 +1,58 @@
+@import url('./large/large.css');
+
+/* Fluid Responisve Gride: Generate by http://www.responsivegridsystem.com */
+
+/*  SECTIONS  */
+
+section,
+header,
+aside,
+.row {
+  clear: both;
+  margin: 0;
+  padding: 0;
+}
+
+section,
+.row {
+  display: block;
+}
+
+/*  COLUMN SETUP  */
+
+.col {
+  display: block;
+  float: left;
+  margin: 0 0 1% 1.6%;
+}
+
+.col:first-child {
+  margin-left: 0;
+}
+
+/*  GROUPING  */
+
+.group:before,
+.group:after {
+  display: table;
+  content: '';
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1;
+  /* For IE 6/7 */
+}
+
+.fa-right {
+  float: right;
+}
+
+/*  GRID OF THE TWELVE  */
+
+.collapse.col {
+  margin: 0;
+}

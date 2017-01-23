@@ -1,0 +1,11 @@
+<template>
+  <require from="./nav-bar.html"></require>
+  <require from='./nav-list.html'></require>
+  <require from='./tool-bar.html'></require>
+
+  <nav-list router.bind="router"></nav-list>
+  <section class="au-animate" id='zencss'>
+  	<tool-bar></tool-bar>
+    <router-view swap-order="after"></router-view>
+  </section>
+</template>

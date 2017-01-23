@@ -1,0 +1,19 @@
+#call-to-action
+{
+
+	background:  url('../../../src/tour/home/call-to-action/pic02.jpg') no-repeat center center fixed;
+
+	background-size: cover;
+}
+
+#call-to-action > div
+{
+	padding:  2.5em 1.6% 1.875em;
+	background-color: rgba(102,95,161,0.9);
+	color:  #fff;	
+}
+
+#call-to-action > div > div:last-child
+{
+	padding-top: 1em;
+}

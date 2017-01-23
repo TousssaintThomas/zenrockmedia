@@ -1,0 +1,12 @@
+<template bindable="router">
+	<div class="tabbed-index">
+		<ul class="navigation-tabs large-12-12">
+			<li repeat.for="row of router.navigation">
+				<a class="button icon ${row.isActive ? 'active' : ''}" href.bind="row.href">
+					<icon set="${row.settings}"></icon>
+					${row.title}
+				</a>
+			</li>
+		</ul>
+	</div>
+</template>	

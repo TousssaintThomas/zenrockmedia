@@ -1,0 +1,42 @@
+:root { 
+  --red: #d33;
+}
+
+
+#zencssIntroduction header 
+{
+	background-color: pink;
+	color:  #fff;
+	text-align: center;
+	height:  25em;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#zencssIntroduction header h1
+{
+	margin:  0;
+	text-transform: uppercase;
+	letter-spacing: 0.65em;
+	line-height: 1em;
+	font-size: 4em;
+	margin-right: -0.65em;
+	margin-bottom: 20px;
+}
+
+#zencssIntroduction header p
+{
+	margin:  0;
+	text-transform: uppercase;
+	letter-spacing: 0.5em;
+	margin-bottom:  10px;
+	margin-right: -0.5em;
+}
+
+#zencssIntroduction header .button
+{
+	min-width: 130px;
+}

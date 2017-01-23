@@ -1,0 +1,125 @@
+.select
+{
+	display: inline-block;
+	position: relative;
+}
+
+.select.active,
+.select:focus 
+{
+  outline: none;
+ 
+  /* This box-shadow property is not exactly required, however it's so important to be sure
+     the active state is visible that we use it as a default value, feel free to override it. */
+  box-shadow: 0 0 3px 1px #227755;
+}
+
+.select .optlist
+{
+	list-style-type: none;
+	padding: 0;
+}
+
+.select .optlist 
+{
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin: 0.25em 0 0 0;
+  width: 100%;
+  z-index: 9999;
+  max-height: 15em;
+  overflow-y: auto;
+}
+
+.select .optlist.hidden {
+  /* This is a simple way to hide the list in an accessible way, 
+     we will talk more about accessibility in the end */
+  max-height: 0;
+  visibility: hidden;
+}
+
+/* Beauty Code */
+
+.select
+{
+	color: #333;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 9px 16px;
+    font-size: 14px;
+    transition: color 0.2s ease, background 0.45s ease, border 0.4s ease-in-out;
+    font-weight: 400;
+    line-height: 1.42857143;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    border-radius: 4px;
+    position: relative;
+    padding-right: 3.57142857em;
+    margin-bottom: 1em;
+}
+
+.select .fa
+{
+	margin-right: 0.75em;
+}
+
+.select.fluid
+{
+	width: 100%;
+}
+
+.select .optlist
+{
+	background-color: #fff;
+	color: #333;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+	display: none;
+}
+
+.select .optlist > li
+{
+	line-height: 1.42857143;
+	padding: 9px 16px;
+}
+
+.select .optlist > li:hover
+{
+	background: rgba(0,0,0,.05);
+}
+
+.select > .fa,
+
+.select > icon
+{
+    position: absolute;
+    height: 100%;
+    line-height: 2.75em;
+    border-radius: 0;
+    border-top-right-radius: inherit;
+    border-bottom-right-radius: inherit;
+    text-align: center;
+    margin: 0;
+    width: 2.57142857em;
+    border-left-color: rgba(0,0,0,.05);
+    color: '';
+    box-shadow: -1px 0 0 0 transparent inset;
+    top: 0;
+    right: 0;
+    border-left: 1px solid #ccc;
+}
+
+.select > icon .fa
+{
+  margin:  0;
+}
+
+.select:hover > .optlist
+{
+	display: block;
+}

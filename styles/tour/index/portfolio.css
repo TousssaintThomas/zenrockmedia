@@ -1,0 +1,89 @@
+#portfolio div.large-6-12
+{
+	overflow: hidden;
+	height: 225px;
+}
+
+#portfolio div
+{
+	position: relative;
+}
+
+#portfolio img
+{
+	vertical-align: middle;
+	transition: 1.5s;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0);
+}
+
+#portfolio .portfolio-gallery div > div
+{
+	display: table-cell;
+	vertical-align: center;
+	overflow: hidden;
+}
+
+#portfolio .portfolio-gallery div > div:hover > img
+{
+	transform: scale(1.1);
+    overflow: hidden;
+    transition-timing-function: ease-out;
+    transition: 1s;
+}
+
+#portfolio .portfolio-gallery .image-overlay
+{
+	padding-top: 1em;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background: rgba(0,0,0,0.5);
+    -webkit-transition: all .35s;
+    transition: all .35s;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+    overflow: hidden;
+}
+
+#portfolio .portfolio-gallery .image-overlay h1
+{
+	opacity: 0;
+	transition: 0.35s;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: inline-block;
+	padding:  0.35em 0.5em;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+	margin-left: -3em;
+	border-left:  4px solid #E82887;
+}
+
+#portfolio .portfolio-gallery .image-overlay.large-ta-right h1
+{
+	margin-right: -3em;
+	border-right:  4px solid #E82887;
+	border-left:  none;
+}
+
+#portfolio .portfolio-gallery .image-overlay:hover
+{
+	background-color: transparent;
+	transition: 0.35s;
+}
+
+#portfolio .portfolio-gallery .image-overlay:hover h1
+{
+	opacity: 1;
+	transition: 0.35s;
+	margin-left:  0em;
+}
+
+#portfolio .portfolio-gallery .image-overlay.large-ta-right:hover h1
+{
+	transition: 0.35s;
+	margin-right:  0em;
+}

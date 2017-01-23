@@ -1,0 +1,52 @@
+<template class="fixed-left" bindable="router">
+  <div class="brand">
+    <a href="#">
+      <span>${router.title}</span>
+    </a>
+  </div>
+  <div class="group user-id-card">
+    <div class="col large-4-12">
+      <img class="responsive user-profile-pic" src="default.png">
+    </div>
+    <div class="col large-8-12">
+      <p>Katsumoto <span class="role">admin</span></p>
+      <p>LAST@SAMURAI.JP</p>
+      <div class="controls">
+        <a href="#">settings</a>
+        <a href="#">Logout</a>
+      </div>
+    </div>
+  </div>
+  <ul class="site-map">
+    <li>
+      <a>
+        <icon set="power-off fa-fw"></icon>
+        Gettings Started
+        <icon set="chevron-down"></icon>
+      </a>
+      <ul>
+        <li>
+          <a route-href="route: home">
+            <icon set="home fa-fw"></icon>
+           	Dashboard
+          </a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a>
+        <icon set="cubes fa-fw"></icon>
+        Modules
+        <icon set="chevron-down"></icon>
+      </a>
+      <ul>
+        <li>
+          <a route-href="route: sitemanager">
+            <icon set="flag fa-fw"></icon>
+            Site Manager
+          </a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</template>

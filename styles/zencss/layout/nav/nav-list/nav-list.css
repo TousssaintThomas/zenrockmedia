@@ -1,0 +1,110 @@
+nav-list
+{
+	display: flex;
+	flex-direction: column;
+}
+
+nav-list .site-map
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	flex: 1;
+	overflow-y: scroll;
+}
+
+nav-list .site-map li
+{
+	width:  100%;
+	display: block;
+}
+
+nav-list .site-map a
+{
+	padding: 1em 1.46em;
+	display: block;
+	text-decoration: none;
+	color: #737373;
+    font-size: 13px;
+    font-weight: 600;
+    -webkit-transition: 0.35s;
+    transition: 0.35s;
+    font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    height: 46px;
+    transition: 0.35s;
+}
+
+nav-list .site-map a:hover
+{
+	background-color: rgba(0, 0, 0, 0.1 );
+	transition: 0.35s;
+}
+
+nav-list .site-map > li > ul
+{
+	padding:  0;
+	border-top: 1px solid #F0F0F0;
+    border-bottom: 1px solid #F0F0F0;
+    background-color: #FAFAFA;
+}
+
+nav-list.fixed-left
+{
+	position: fixed;
+	left: 0;
+	width:  250px;
+	height:  100%;
+}
+
+nav-list .brand
+{
+	height: 64px;
+	display: flex;
+    align-items: center;
+    box-shadow: -2px 1px 3px rgba(0,0,0,.3);
+    justify-content: center;
+    z-index: 9;
+}
+
+nav-list .brand a
+{
+	font-size: 1.8em;
+	text-decoration: none;
+	color: #737373;
+	text-transform: uppercase;
+}
+
+nav-list .site-map a .fa
+{
+	margin-right: 0.5em;
+}
+
+nav-list .site-map a .fa-chevron-down
+{
+	float: right;
+    margin: 3px 0;
+    color: #29b6f6;
+    font-size: 1em;
+}
+
+nav-list .fa {
+    font-size: 1.35em;
+    color: #BEBEBE;
+}
+
+nav-list .site-map::-webkit-scrollbar {
+    width: 6px;
+}
+ 
+nav-list .site-map::-webkit-scrollbar-track {
+    background-color: #F5F5F5;
+}
+ 
+nav-list .site-map::-webkit-scrollbar-thumb {
+    background-color:  #ccc;
+}
+
+
+
+
+

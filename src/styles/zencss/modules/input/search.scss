@@ -1,0 +1,22 @@
+.search-input
+{
+	display: flex;
+	position: relative;
+}
+
+.search-input input
+{
+	margin: 0;
+	align-self: center;
+	position: absolute;
+	left: 0;
+	padding-left: 2em;
+}
+
+.search-input icon
+{
+	align-self: center;
+	z-index: 9999;
+	padding-left: 0.5em;
+	position: absolute;
+}

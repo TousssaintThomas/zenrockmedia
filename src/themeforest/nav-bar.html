@@ -1,0 +1,21 @@
+<template bindable="router">
+  <div class="brand">
+    <a href="#">
+      <span>${router.title}</span>
+    </a>
+  </div>
+  <ul class="site-map">
+    <li repeat.for="row of router.navigation" class="${row.isActive ? 'active' : ''}">
+      <a href.bind="row.href">
+        <icon set="${row.settings}"></icon>
+        ${row.title}
+      </a>
+    </li>
+  </ul>
+  <div class="utility-menu">
+    <div class="button-group collapse">
+      <a class="button">Log In</a>
+      <a class="button">Sign Up</a>
+    </div>
+  </div>
+</template>

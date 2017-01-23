@@ -1,0 +1,43 @@
+.code-example
+{
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+	
+	pre {
+	    background-color: #FAFAFA;
+	    margin: 0;
+	    border-bottom-right-radius: 2px;
+	    border-bottom-left-radius: 2px;
+		padding: 0em 1em;
+		line-height: 1.35em;
+	}
+
+	.nav-tabs
+	{
+		margin:0;
+		padding: 0.75em 0.25em 0;
+		background-color: #FAFAFA;
+	}
+}
+
+.code-example 
+
+code, kbd, pre, samp 
+{
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+
+.code-example code
+{
+	line-height: 1em;
+}
+
+code .html-tag
+{
+	color: #e74c3c;
+}
+
+code .attribute
+{
+	color: #2ecc71;
+}
