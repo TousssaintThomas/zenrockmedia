@@ -1,7 +1,23 @@
 <template>
-	<main class="group">
-		<section class="group" id="adminSiteManager">
-			<h3>Site Manager</h3>
-		</section>
+	<require from="./site-list"></require>
+
+	<main class="group" id="siteManager">
+		<div id="siteManager">
+			<header class="group col large-12-12">
+				<h3>
+					<icon set="th-large"></icon>
+					Site Manager
+				</h3>
+				<div class="quickSettings">
+					<a class="button icon"><icon set="plus fa-fw"></icon></a>
+					<a class="button icon"><icon set="sort fa-fw"></icon></a>
+					<input-search></input-search>
+				</div>
+			</header>
+			<hr>
+			<section>
+				<site-list></site-list>
+			</section>
+		</div>
 	</main>
 </template>

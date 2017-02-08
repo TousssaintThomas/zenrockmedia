@@ -10,11 +10,11 @@ export class Tour {
     config.title ='Admin';
     config.map([
       { 
-        route: ['', 'home'], 
-        name: 'home',       
-        moduleId: './home/home',       
+        route: ['', 'dashboard'], 
+        name: 'dashboard',       
+        moduleId: './dashboard/dashboard',       
         nav: true, 
-        title: 'Home', 
+        title: 'Dashboard', 
         settings: 'home' 
       },
       { 

@@ -7,8 +7,12 @@ export class App {
   configureRouter(config: RouterConfiguration, router: Router) {
     config.title = 'Aurelia';
     config.map([
+      {
+        route: '',
+        redirect: 'tour'
+      },
       { 
-      	route: ['', 'tour'],     
+      	route: 'tour',     
       	name: 'tour',          
       	moduleId: './tour/tour',          
       	nav: true, 

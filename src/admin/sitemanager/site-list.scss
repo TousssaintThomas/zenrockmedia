@@ -1,0 +1,56 @@
+.site-list
+{
+	list-style-type: none;
+	padding: 0;
+
+	li
+	{
+		display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    padding: 1em 0;
+
+	    > div
+	    {
+	    	margin-bottom: 0;
+	    }
+
+	    > div:first-child
+	    {
+	    	display: flex;
+		    justify-content: center;
+		    align-items: center;
+	    }
+
+	    > div:nth-child(2)
+	    {
+	    	flex-direction: column;
+		    display: flex;
+		    justify-content: center;
+	    }
+
+	}
+
+	h4
+	{
+		margin: 0;
+		line-height: 1.35em;
+	}
+
+	p 
+	{
+		margin: 0;
+		line-height: 1.95em;
+	}
+
+	a
+	{
+		text-decoration: none;
+	}
+}
+
+
+.button.reddit.mini
+{
+	padding: 0 1.2em;
+}
