@@ -1,0 +1,66 @@
+.modal
+{
+	top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.modal .main-content
+{
+	background-color: #fff;
+	border-radius: 3px;
+	display: inline-flex;
+	min-width: 240px;
+    max-width: 80%;
+    max-height: 80%;
+	flex-direction: column;
+}
+
+.modal .controls
+{
+	align-self: flex-end;
+	background-color: #e0e1e2;
+	width: 100%;
+	display: flex;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	margin-bottom: 0.75em;
+}
+
+.modal .controls a.button i.fa 
+{
+	margin:0;	
+}
+
+.modal .controls a.button
+{
+	margin:0;
+	margin-left: auto;
+	border-radius: 0;
+	border-top-right-radius: 3px;
+}
+
+.modal .actions
+{
+	padding: 0.5em;
+	border-top: 1px solid #ccc;
+	align-items: flex-end;
+	display: flex;
+}
+
+.modal .actions .button:first-child
+{
+	margin-left: auto;
+}
+
+.modal .dialog
+{
+	padding: 0.75em 1.25em;
+}

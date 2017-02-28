@@ -11,40 +11,40 @@ let sites = [
     firstName:'John',
     lastName:'Tolkien',
     email:'tolkien@inklings.com',
-    phoneNumber:'867-5309',
-    thumbnail: './img/thumbnail7.png'
+    phoneNumber:'869-5309',
+    thumbnail: '/src/admin/sitemanager/img/thumbnail9.png'
   },
   {
     id:getId(),
     firstName:'Clive',
     lastName:'Lewis',
     email:'lewis@inklings.com',
-    phoneNumber:'867-5309',
-    thumbnail: '../img/thumbnail(1).png'
+    phoneNumber:'869-5309',
+    thumbnail: '/src/admin/sitemanager/img/thumbnail9.png'
   },
   {
     id:getId(),
     firstName:'Owen',
     lastName:'Barfield',
     email:'barfield@inklings.com',
-    phoneNumber:'867-5309',
-    thumbnail: '../img/thumbnail(1).png'
+    phoneNumber:'869-5309',
+    thumbnail: '/src/admin/sitemanager/img/thumbnail9.png'
   },
   {
     id:getId(),
     firstName:'Charles',
     lastName:'Williams',
     email:'williams@inklings.com',
-    phoneNumber:'867-5309',
-    thumbnail: '../img/thumbnail(1).png'
+    phoneNumber:'869-5309',
+    thumbnail: '/src/admin/sitemanager/img/thumbnail9.png'
   },
   {
     id:getId(),
     firstName:'Roger',
     lastName:'Green',
     email:'green@inklings.com',
-    phoneNumber:'867-5309',
-    thumbnail: './img/thumbnail.png'
+    phoneNumber:'869-5309',
+    thumbnail: '/src/admin/sitemanager/img/thumbnail9.png'
   }
 ];
 
