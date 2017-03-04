@@ -9,7 +9,7 @@
           			<h4 class="list-group-item-heading">${site.firstName} ${site.lastName}</h4>
           			<p class="list-group-item-text">${site.email}</p>
                 <div>
-                  <a id="myBtn" class="button mini reddit" route-href="route: sites; params.bind: {id:site.id}" click  .delegate="$parent.select(site)">Details</a>
+                  <a id="myBtn" class="button mini reddit" route-href="route: sites; params.bind: {id:site.id}" click.delegate="$parent.select(site)">Details</a>
                 </div>
             </div>
       		</li>
