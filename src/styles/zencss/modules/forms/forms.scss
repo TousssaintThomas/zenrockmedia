@@ -1,0 +1,9 @@
+fieldset.stacked .field
+{
+	display: block;
+}
+
+form.fluid .field > input[type='text']
+{
+	width: 100%;
+}

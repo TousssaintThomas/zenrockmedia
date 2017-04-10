@@ -1,0 +1,111 @@
+/* BUTTONS - GROUP */
+
+.button-group
+{
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.button-group,
+.button-group-vertical
+{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.button-group-vertical > .button
+{
+    display: block;
+    margin: 0;
+}
+
+.button-group-vertical > .button:first-child
+{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-collapse: collapse;
+}
+
+.button-group-vertical > .button:first-child:before
+{
+    border-bottom-left-radius: 0px;
+}
+
+.button-group-vertical > .button:not(:first-child):not(:last-child):before
+{
+    border-radius: 0px;
+}
+
+.button-group-vertical > .button:last-child
+{
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.button-group-vertical > .button:last-child:before
+{
+    border-top-left-radius: 0px;
+}
+
+.button-group-vertical > .button:not(:first-child):not(:last-child)
+{
+    border-radius: 0px;
+}
+
+.button-group-vertical > .button+.button:not(:first-child)
+{
+    border-top: 0px;
+}
+
+
+
+.button-group > .button
+{
+    float: left;
+    position: relative;
+    margin: 0;
+}
+
+.button-group.fluid
+{
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: separate;
+    text-align: center;
+}
+
+.button-group > .button:not(:first-child):not(:last-child)
+{
+    border-radius: 0;
+}
+
+.button-group > .button:first-child:not(:last-child)
+{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right-collapse: collapse;
+}
+
+.button-group > .button:last-child:not(:first-child)
+{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.button-group > .button + .button
+{
+    border-left: 1px solid rgba(0, 0, 0, .07);
+}
+
+.button-group.button:first-child
+{
+    margin-left: 0;
+}
+
+.button-group.fluid > .button
+{
+    display: table-cell;
+    float: none;
+}

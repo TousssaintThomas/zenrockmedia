@@ -7,6 +7,8 @@ export function configure(config: FrameworkConfiguration): void {
   	'./input-select/input-select',
   	'./nav-tabs/nav-tabs',
   	'./nav-tabs/tab',
-  	'./input-search/input-search'
+  	'./input-search/input-search',
+  	'./field/field',
+  	'./checkbox/checkbox'
   ]);
 }

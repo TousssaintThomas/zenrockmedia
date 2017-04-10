@@ -1,0 +1,66 @@
+.navigation-tabs,
+.nav-tabs,
+nav-tabs ul
+{
+	padding: 0;
+	margin: 0 0 1em 0;
+	position: relative;
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 0;
+    display: block;
+}
+
+.navigation-tabs li,
+.nav-tabs li
+{
+	display: inline-block;
+}
+
+.navigation-tabs li > a,
+.nav-tabs li > a 
+{
+    transition: 0.35s;
+    margin: 0;
+}
+
+.navigation-tabs li > button,
+.navigation-tabs li > a,
+.nav-tabs li > a
+{
+	color: #555;
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+    position: relative;
+    display: block;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.navigation-tabs li > button:not(.active),
+.navigation-tabs li > a:not(.active),
+.nav-tabs li > a:not(.active)
+{
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+    border-bottom-color: transparent;
+    opacity: .65;
+    transition: 0.45s;
+}
+
+.navigation-tabs li > button:focus,
+.navigation-tabs li > button:focus
+{
+    outline: 0;
+}
+
+.navigation-tabs li > button.inactive:hover
+{
+    opacity: 1;
+}

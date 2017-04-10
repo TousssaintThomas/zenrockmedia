@@ -42,6 +42,10 @@ export class siteDetail {
     });
   }
 
+  cancle(){
+    document.getElementById("siteDetails").className = " ";
+  }
+
   canDeactivate() {
     if(!areEqual(this.originalsite, this.site)){
       let result = confirm('You have unsaved changes. Are you sure you wish to leave?');

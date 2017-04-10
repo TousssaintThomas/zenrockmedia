@@ -22,7 +22,9 @@ export class siteList {
   }
 
   select(site){
+    document.getElementById("siteDetails").className += " active";
     this.selectedId = site.id;
     return true;
   }
+
 }

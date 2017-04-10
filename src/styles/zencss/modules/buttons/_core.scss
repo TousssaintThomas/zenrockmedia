@@ -1,0 +1,219 @@
+a.button *:last-child
+{
+    margin-right: 0;
+}
+
+button,
+input[type="submit"],
+.button
+{
+    display: inline-block;
+    white-space: nowrap;
+    background-color: #e0e1e2;
+    padding: 0 16px;
+    margin-right: 0.25em;
+    font-size: 14px;
+    text-decoration: none;
+    color: rgba(0,0,0,.6);
+    text-shadow: 0 1px 0 rgba(255,255,255,.8);
+    border-radius: 2px;
+    cursor: pointer;
+    line-height: 2.75em;
+    border: none;
+    box-shadow: none;
+    font-weight: 700;
+    border-radius: .28571429rem;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+}
+
+button:before,
+input[type='submit']:before,
+.button:before {
+    background: #ccc;
+    background-color: rgba(0,0,0,.05);
+    float: left;        
+    text-align: center;
+    margin: 0 1em 0 -1.12em;
+    padding: 0 .75em;
+    border-radius: .28571429rem 0 0 .28571429rem;
+    pointer-events: none; 
+    width: 35px;       
+}
+
+
+button.primary,
+.button.primary
+{
+    color: var(--primary-button-text-color);
+    background-color: var(--primary-button-background-color);
+    border-color: var(--primary-button-border-color);
+}
+
+button.success,
+.button.success
+{
+    color: var(--success-button-text-color);
+    background-color: var(--success-button-background-color);
+    border-color: var(--success-button-border-color);
+}
+
+button.warning,
+.button.warning
+{
+    color: var(--warning-button-text-color);
+    background-color: var(--warning-button-background-color);
+    border-color: var(--warning-button-border-color);
+}
+
+button.info,
+.button.info
+{
+    color: var(--info-button-text-color);
+    background-color: var(--info-button-background-color);
+    border-color: var(--info-button-border-color);
+}
+
+button.danger,
+.button.danger
+{
+    color: var(--danger-button-text-color);
+    background-color: var(--danger-button-background-color);
+    border-color: var(--danger-button-border-color);
+}
+
+/* BUTTONS - SIZE */
+
+button.mini,
+input[type='submit'].mini,
+.button.mini
+{
+    padding: 0 1.5em;
+    font-size: .71428571rem;
+    line-height: 2.5em;
+}
+
+button.tiny,
+input[type='submit'].tiny,
+.button.tiny
+{
+    padding: 0 1.5em;
+    font-size: .81428571rem;
+    line-height: 2.50em;
+}
+
+button.small,
+input[type="sumbit"].small,
+.button.small
+{
+    padding: 0px 10px;
+    font-size: .82857143rem;
+}
+
+button.large,
+input[type="sumbit"].large,
+.button.large
+{
+    padding: 0px 18px;
+    font-size: 16px;
+    line-height: 2.75em;
+}
+
+button.big,
+input[type='submit'].big,
+.button.big
+{
+    padding: 0 1.5em;
+    font-size: 1.28571429rem;
+    line-height: 2.50em;
+}
+
+button.huge,
+input[type='submit'].huge,
+.button.huge
+{
+    font-size: 140%;
+    padding: 0 1.25em;
+}
+
+button.massive,
+input[type='submit'].massive,
+.button.massive
+{
+    font-size: 150%;
+    padding: 0 1.25em;
+}
+
+
+/* BUTTONS - SHAPE */
+
+button.ellipse,
+input[type="submit"].button.ellipse,
+.button.ellipse
+{
+    border-radius: 24px;
+}
+
+
+
+div.large-ta-right .button
+{
+    margin-right: 0;
+    margin-left: .5em;
+}
+
+input[type='submit'],
+button,
+.button
+{
+    transition: 0.35s;
+}
+
+input[type='submit']:hover,
+button:hover,
+.button:hover
+{
+    transition: 0.35s;
+    color: rgba(0,0,0,.8);
+    background-color: #cacbcd;
+    border-color: #adadad;
+}
+
+.button.primary:hover
+{
+    color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
+}
+
+.button.success:hover
+{
+    color: #fff;
+    background-color: #449d44;
+    border-color: #398439;
+}
+
+.button.warning:hover
+{
+    color: #fff;
+    background-color: #ec971f;
+    border-color: #d58512;
+}
+
+.button.info:hover
+{
+    color: #fff;
+    background-color: #31b0d5;
+    border-color: #269abc;
+}
+
+button.danger:hover,
+.button.danger:hover
+{
+    color: #fff;
+    background-color: #c9302c;
+    border-color: #ac2925;
+}
+
+
+
+
