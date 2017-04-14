@@ -1,11 +1,5 @@
-@import 'test';
 
 input[type='checkbox']:checked + label
 {
 	content: '\f00c'
-}
-
-body {
-  font: 100% $font-stack;
-  color: $primary-color;
 }

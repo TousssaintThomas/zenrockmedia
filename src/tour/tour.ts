@@ -1,5 +1,4 @@
 import {Router, RouterConfiguration} from 'aurelia-router';
-import '../../styles/tour/main.css';
 
 export class Tour {
   router: Router;
